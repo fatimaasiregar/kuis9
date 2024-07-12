@@ -1,0 +1,296 @@
+@media only screen and (max-width: 736px) and (orientation:portrait)
+
+{
+      nav{
+            align-items: center;
+      }
+      nav .logo{
+            width: 30%;
+            position: absolute;
+            left: 0px;
+
+      }
+      nav .logo img{
+            padding-top: 20px;
+
+      }
+      nav ul{
+            position: fixed;
+            top:44px;
+            width:100%;
+            background:rgb(41, 39, 38);
+            max-height: 0;
+            /* overflow:hidden; */
+
+      }
+      nav li{
+            display: block;
+            width: 100%;
+            padding: 5px;
+      }
+      nav a{
+            width: 100%;
+            display: block;
+      }
+      nav li:hover{
+            background: rgb(150, 129, 49);
+
+      }
+      label{
+            display: block;
+            padding: 0px 10px;
+            font-size: 30px;
+            cursor:pointer;
+            position: absolute;
+            right: 2%;
+
+      }
+      label:hover{
+            color: rgb(138, 194, 214);
+      }
+
+      nav #navigasi-button:checked-ul{
+            max-height: 100%;
+            transition: all is ease-out;
+      }
+
+}
+html,
+body{
+      margin: 0;
+      padding: 0;
+      height: 80%;
+      font-family: 'Open Sans',sans-serif;
+      background-image: url(assets/senja.jpg);
+      background-repeat: cover;
+}
+
+nav{
+      overflow: hidden;
+      width: 100%;
+      background: linear-gradient(to right, white,darkorange);
+      position: fixed;
+      top: 0;
+      height: 60px;
+      display: flex;
+      justify-content: space-around;
+      box-shadow: 0 0px 4px 0 rgba(0,0,0,.2);
+      padding: 1rem 2 rem;
+}
+
+nav.logo{
+      font-size: 1.rem;
+      width: 50%;
+     height: auto;
+      left: -75px;
+      position: relative;
+      top: -18px ;
+      
+}
+nav .logo img{               
+      padding-top: -10px;
+      width: 60px;
+      
+      /* UNTUK GAMBAR */
+}
+
+nav .logo a{
+      margin-top: auto;
+      font-size: 30px;
+      font-weight: 800;
+      font-family: 'Trebuchet MS';
+      float: right;
+      color: #615EFC;
+      /* UNTUK TULISAN */
+}
+
+
+nav li{
+      display: inline;
+     align-items:center ;
+      gap:6rem;
+      list-style: none;
+
+
+}
+
+nav a{
+      text-decoration: none;
+      color: rgb(78,71,71);
+      font-family: Arial;
+      padding: 10px 20px;
+      font-weight: bold;
+      transition: 0.15s;
+
+}
+
+nav a:hover{
+      color: rgb(234, 235, 236);
+      border-bottom: 5px solid white;
+
+
+}
+
+#navigasi-button{
+      display: none;
+}
+label{
+      display: none;
+}
+
+
+.container{
+      padding: 80px 10px;
+      text-align: center;
+      color:  #ececef;
+      font-family: Verdana;
+      font-weight: 200;
+      font-size:40px;
+      text-shadow: 2px 8px 6px rgba(213, 190, 16, 0.8);
+     
+}
+
+.wp1{
+      /* padding: 8px; */
+      margin: 90px;
+      justify-content: space-between;
+    
+      
+     
+}
+
+
+.wp1 p{
+      text-indent: 20px;
+      font-family: 'Gill Sans';
+      
+}
+
+.wp2{
+      margin: -450px 650px;
+      justify-content: space-around;
+      
+}
+
+.wp2 p{
+    text-indent: 10px;
+    font-family: 'Gill Sans';
+    width: 20px;
+
+}
+
+.wp3{
+      margin: 115px 1100px;
+      justify-content:space-between;
+}
+
+.wp3 img{
+      width: 169px;
+}
+.wp3 p{
+      font-family: 'Gill Sans';
+
+}
+
+.wp2 p{
+      text-indent: 10px;
+     text-align-last: right;
+     font-family: 'Gill Sans';
+}
+
+.wp4{
+      margin: 100px ;
+}
+
+.wp4 img{
+      width: 178px;
+}
+
+.wp4 p{
+      text-indent: 10px;
+      font-family: 'Gill Sans';
+
+
+}
+
+.wp5{
+    margin: -450px 655px;
+}
+.wp5 img{
+      width: 180px;
+}
+.wp5 p{
+      font-family: 'Gill Sans';
+ 
+}
+
+.wp6{
+      margin: 110px 1100px;
+}
+
+.wp6 img{
+      width: 180px;
+}
+.wp6 p{
+      font-family: 'Gill Sans';
+
+}
+
+/* buat responsivenya  dan  bisa dipake jika layarnya disesuaikan dengan tampilan atau diperkecil*/ 
+@media only screen and (max-width: 736px) and (orientation:portrait)
+
+{
+      nav{
+            align-items: center;
+      }
+      nav .logo{
+            width: 30%;
+            position: absolute;
+            left: 0px;
+
+      }
+      nav .logo img{
+            padding-top: 20px;
+
+      }
+      nav ul{
+            position: fixed;
+            top:44px;
+            width:100%;
+            background:rgb(41, 39, 38);
+            max-height: 0;
+            /* overflow:hidden; */
+
+      }
+      nav li{
+            display: block;
+            width: 100%;
+            padding: 5px;
+      }
+      nav a{
+            width: 100%;
+            display: block;
+      }
+      nav li:hover{
+            background: rgb(150, 129, 49);
+
+      }
+      label{
+            display: block;
+            padding: 0px 10px;
+            font-size: 30px;
+            cursor:pointer;
+            position: absolute;
+            right: 2%;
+
+      }
+      label:hover{
+            color: rgb(138, 194, 214);
+      }
+
+      nav #navigasi-button:checked-ul{
+            max-height: 100%;
+            transition: all is ease-out;
+      }
+
+}

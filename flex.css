@@ -1,0 +1,34 @@
+.container {
+    /* width: 475px; */
+    border: 2px solid black;
+    margin: 10px auto;
+    padding: 2px;
+    box-sizing: border-box;
+    display: flex;  
+     /* display: flex;
+    flex-direction: column;  */
+     /* flex-wrap: wrap;  
+     flex-wrap: wrap; */
+    /* justify-content: center;  */
+    /* align-items: baseline; */
+  flex-grow: 20px;
+    }
+    .container div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(30, 87, 231);
+    color: white;
+    font-size: 20px;
+    margin: 2px;
+    }
+    .container div.tiga {
+        font-size: 40px; 
+            flex: 2;
+            }
+        .satu {order: 3}
+    .dua {order: 5}
+.tiga {order: 6}
+.empat {order: 4}
+.lima {order: 1}
+.enam {order: 2}
+    

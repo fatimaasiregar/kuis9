@@ -1,0 +1,37 @@
+p {
+    color: blue;
+    }
+    .container {
+        color: white;
+        background: pink;
+        padding: 5px;
+        }
+        #header {
+       background: teal;
+            color: white;
+            height: 100px;
+            padding: 50px;
+            }
+            input[type=text] {
+                background: none;
+                color: cyan;
+                padding: 10px;
+                border: 1px solid cyan;
+                }
+                a:hover {
+                    color: green;
+                    }
+                        p::first-line {
+                            color: magenta;
+                            }
+
+                            p {
+                                background: linear-gradient(90deg, rgba(34, 193, 195, 1) 0%,
+                                 rgba(240, 45, 253, 1) 100%);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                                }
+                                body {
+                                    background-image: url(Assets/senja.jpg);
+                                    background-repeat: no-repeat;
+                                    }                                          

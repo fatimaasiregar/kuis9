@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1>Nama - Email</h1>
+  <ul id="user-list"></ul>
+
+  <script>
+    fetch('https://jsonplaceholder.typicode.com/users')
+     .then(response => response.json())
+     .then(data => {
+        const userList = document.getElementById('user-list');
+        data.forEach(user => {
+          const listItem = document.createElement('li');
+          listItem.textContent = `${user.name} - ${user.email}`;
+          userList.appendChild(listItem);
+        });
+      });
+  </script>
+</body>
+</html>
+</body>
+</html>

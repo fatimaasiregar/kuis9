@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let mahasiswa = {
+  name: " Patimah sari siregar",
+  age: 19,
+  subjects: []
+};
+
+mahasiswa.subjects.push("matematika");
+mahasiswa.subjects.push("biologi");
+mahasiswa.subjects.push("bahasa inggris");
+
+document.body.innerHTML = `
+  <h1>Student Information</h1>
+  <p>Name: ${mahasiswa.name}</p>
+  <p>Age: ${mahasiswa.age}</p>
+  <p>Subjects:</p>
+  <ul>
+    ${mahasiswa.subjects.map(subject => `<li>${subject}</li>`).join("")}
+  </ul>
+  
+`;
+    </script>
+</body>
+</html>

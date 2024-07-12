@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="return validateForm()">
+        <label for="username">
+        Username
+        <input type="text" name="username">
+        </label>
+        <label for="password">
+        Password
+        <input type="password" name="password">
+        </label>
+        <input type="submit" value="Submit">
+        </form>
+        
+    <!-- <label for="fruit">Pilih buah favorit:</label>
+<select id="fruit" onchange="showSelectedFruit()">
+<option value="apple">Apel</option>
+<option value="banana">Pisang</option>
+<option value="orange">Jeruk</option>
+</select> -->
+    <!-- <h1 id="keydown"></h1>
+<h1 id="pressed"></h1>
+<h1 id="keyup"></h1> -->
+
+<!-- <button id="btn-enter">Mouse Enter</button>
+<button id="btn-hover">Hover</button>
+<button id="btn-out">Mouse Out</button> -->
+
+    <!-- <button id="btn">click</button> -->
+     <!-- <button  onclick="alert('sudah di click')">click</button> -->
+     <!-- <button onclick="test()">Klik saya!</button>
+     <button ondblclick="buttonClicked()">Klik 2 kali!</button> -->
+     
+    <script>
+
+function validateForm() {
+let username =
+document.getElementsByName("username")[0].value;
+let password =
+console.log(username)
+console.log(password);
+console.log(user);
+document.getElementsByName("password")[0].value;
+// Mencegah pengiriman formulir jika ada masukan yang kosong.
+if (username === "" || password === "") {
+alert("Isi semua kolom sebelum mengirimkan formulir");
+// Lanjutkan pengiriman formulir jika validasi berhasil
+return true;
+}
+}
+// function showSelectedFruit() {
+// let selectedFruit =
+//  document.getElementById("fruit").value;
+// console.log("Buah favorit Kita: " + selectedFruit);
+// }
+//         const keydown = document.getElementById("keydown");
+// const pressed = document.getElementById("pressed");
+// const keyup = document.getElementById("keyup");
+// document.addEventListener("keydown", function (event) {
+//     keydown.innerText = `menekan: ${event.key}`;
+// });
+// document.addEventListener("keypress", function (event) {
+// pressed.innerText = `menahan: ${event.key}`;
+// });
+// document.addEventListener("keyup", function (event) {
+// keyup.innerText = `melepas: ${event.key}`;
+// });
+
+//         const btnEnter = document.getElementById("btn-enter");
+// const btnHover = document.getElementById("btn-hover");
+// const btnOut = document.getElementById("btn-out");
+// btnEnter.addEventListener("mouseenter", function (event) {
+// event.target.innerText = "Mouse sudah masuk";
+// });
+// btnOut.addEventListener("mouseout", function (event) {
+// event.target.innerText = "Mouse sudah keluar";
+// });
+// btnHover.addEventListener("mouseover", function (event) {
+// event.target.innerText = "Mouse sudah di atas elemen";
+// });
+// function test(){
+//     let img = document.createElement("img");
+//     img.src="https://i.pinimg.com/236x/af/14/e0/af14e07ae99b5a294b26a04f17eb2bed.jpg "
+//     let container = document.getElementById("btn");
+//     container.appendChild(img);
+
+
+// }
+
+
+//         function buttonClicked() {
+// alert('Tombol telah diklik!');
+// }
+    //     let btn = document.getElementById("btn");
+    //     btn.addEventListener("click",function(){
+    //         alert("anda menekan tombol alert");
+    
+    //    });
+    </script>
+</body>
+</html>

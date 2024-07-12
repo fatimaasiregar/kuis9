@@ -1,0 +1,9 @@
+div {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    }
+.satu{
+    background-color: aqua;
+    position: relative;
+}
